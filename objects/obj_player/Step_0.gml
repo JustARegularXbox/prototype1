@@ -8,7 +8,7 @@ if (mouse_check_button_pressed(mb_right) && (x < obj_mouse.xx && y < obj_mouse.y
 		y += 5;
 	}
 }
-if (mouse_check_button_pressed(mb_right) && (x < obj_mouse.xx && y > obj_mouse.yy))
+else if (mouse_check_button_pressed(mb_right) && (x < obj_mouse.xx && y > obj_mouse.yy))
 {
 	while (x <= obj_mouse.xx && y >= obj_mouse.yy)
 	{
@@ -16,7 +16,7 @@ if (mouse_check_button_pressed(mb_right) && (x < obj_mouse.xx && y > obj_mouse.y
 		y -= 5;
 	}
 }
-if (mouse_check_button_pressed(mb_right) && (x > obj_mouse.xx && y < obj_mouse.yy))
+else if (mouse_check_button_pressed(mb_right) && (x > obj_mouse.xx && y < obj_mouse.yy))
 {
 	while (x >= obj_mouse.xx && y <= obj_mouse.yy)
 	{
@@ -24,7 +24,7 @@ if (mouse_check_button_pressed(mb_right) && (x > obj_mouse.xx && y < obj_mouse.y
 		y += 5;
 	}
 }
-if (mouse_check_button_pressed(mb_right) && (x > obj_mouse.xx && y > obj_mouse.yy))
+else if (mouse_check_button_pressed(mb_right) && (x > obj_mouse.xx && y > obj_mouse.yy))
 {
 	while (x >= obj_mouse.xx && y >= obj_mouse.yy)
 	{
