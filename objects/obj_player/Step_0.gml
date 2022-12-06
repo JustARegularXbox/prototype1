@@ -1,18 +1,7 @@
 /// @desc Actions that should happen every frame
 
-if (keyboard_check(vk_right))
+if (mouse_check_button_pressed(mb_right)
 {
-	x = x + movspd;
-}
-else if (keyboard_check(vk_left))
-{
-	x = x - movspd;
-}
-if (keyboard_check(vk_up))
-{
-	y = y - movspd;
-}
-else if (keyboard_check(vk_down))
-{
-	y = y + movspd;
-}
+	while (x <= obj_mouse.xx && y <= obj_mouse.yy)
+	{
+		x += 
