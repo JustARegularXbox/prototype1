@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room1",
+  "name": "TestRoom",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -26,8 +26,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1A7B084E","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_5E6267B2","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1A7B084E","path":"rooms/TestRoom/TestRoom.yy",},
+    {"name":"inst_5E6267B2","path":"rooms/TestRoom/TestRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

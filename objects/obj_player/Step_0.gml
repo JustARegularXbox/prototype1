@@ -2,6 +2,9 @@
 
 if (mouse_check_button(mb_right))
 {
-	x = obj_mouse.xx;
-	y = obj_mouse.yy;
+	while (x < obj_mouse.xx && y < obj_mouse.yy)
+	{
+		x += 5;
+		y += 5;
+	}
 }
